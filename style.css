@@ -1,0 +1,202 @@
+.navigationBar{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(19, 18, 18);
+    padding: 10;
+    padding-top: 0.5%;
+    padding-left: 50%;
+    position:fixed;
+}
+.navigationBar a{
+     text-decoration: none;
+     color: aliceblue;
+     font-family: 'Staatliches', cursive;
+    
+     margin-left: 5%;
+     font-size: 25px;
+     
+}
+.flex-section{
+    display: flex;  
+}
+body{
+    margin: 0;
+}
+span{
+    color:chocolate;
+}
+.half-width{
+width: 50%;
+padding-top: 2%;
+padding-left: 3%;
+}
+
+.section1 h1{
+   
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color:rgb(12, 11, 11);
+    font-size: 50px;
+    padding-bottom:0;
+    padding-top: 250px;
+    padding-left: 10%;
+    /*rgb(12, 11, 11);*/
+    background-image: url("image/bg/bg1.png");
+    background-repeat: no-repeat;
+   
+}
+.section1 p{
+    padding-left: 10%;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+}
+.OrderButton{
+    
+    color: aliceblue;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(252, 91, 50),rgb(67, 12, 168));
+    padding: 15px;
+    text-align: left;
+    border-radius: 20px;
+   font-family: 'Jomhuria', cursive;
+   margin-right: 10%;
+}
+
+.section1 img{
+    
+    height: 800px;
+    width: 750px;
+}
+.girlBackgroundShape{
+
+    background-image: url("image/bg/bg2.png");
+    height: 800px;
+    width: 550;
+    background-position: left;
+    background-repeat:no-repeat;
+    padding-top: 0;
+    
+   
+    
+}
+.aboutMe{
+    background-image: url("image/bg/bg3.jpg");
+
+    
+   background-repeat:no-repeat
+}
+
+.aboutMe h1{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    padding-top: 20%;
+    font-size: 50px;
+}
+.aboutMe p{
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Fuggles', cursive;
+
+    font-family: 'Tourney', cursive;
+
+    padding-right: 2%;
+}
+
+.aboutMeImage{
+    height: 600px;
+    width: 400px ;
+    padding-left:150px;
+    padding-top: 0;
+    
+}
+.myRecepy{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+}
+
+.myRecepy h1{
+    font-size: 60px; 
+    font-family: 'Zen Tokyo Zoo', cursive;
+    text-align: center;
+}
+.myRecepy p{
+
+font-family:cursive;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.myFavRecipies{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    box-shadow: 10px 5px 15px black;
+    
+   
+}
+.myFavRecipies p{
+    
+    text-align:justify
+}
+
+.myFavRecipies img{
+    height:300px ;
+    width:360px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 50px;
+    background-position: center;
+    
+}
+.follower{
+    display: flex; 
+    margin-left: 20px; 
+}
+.followers h1{
+    display: inline-block;
+    padding-left: 2px;
+    margin-left: 20%;
+    
+}
+
+
+.followerDiv{
+    box-shadow: 10px 5px 18px black;
+    width: 80%;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    border-radius: 45px;
+}
+.followerDiv p{
+    display: inline-block;
+    margin-left:15%;
+}
+footer{
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 40%;
+}
+footer h1{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 40px;
+}
+
+
+
+#footerSociaIcon{
+    padding: 0;
+    height:30px;
+    width: 30px;
+    align-items: center;
+    padding-left: 20px;
+}
+.icon{
+    margin-left: 70%;
+}
+
+
